@@ -26,7 +26,7 @@ class FpJsFormValidatorExtension extends Extension
 
         $container->setParameter($this->getAlias() . '.config', $config);
 
-        $loader = new Loader\YmlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
+        $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
     }
 
