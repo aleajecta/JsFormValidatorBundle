@@ -1,0 +1,3 @@
+fp_js_form_validator.check_unique_entity:
+    path: /check_unique_entity
+    defaults: {_controller: FpJsFormValidatorBundle:Ajax:checkUniqueEntity}
