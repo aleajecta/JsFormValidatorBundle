@@ -1,9 +1,9 @@
 {
-    "name": "fp/jsformvalidator-bundle",
+    "name": "aleajecta/js-formvalidator-bundle",
     "type": "symfony-bundle",
-    "description": "Javascript validation for sf2 forms.",
+    "description": "Javascript validation for sf2-3 forms.",
     "keywords": ["Symfony", "Form", "Javascript", "Validation"],
-    "homepage": "https://github.com/formapro/JsFormValidatorBundle",
+    "homepage": "https://github.com/aleajecta/JsFormValidatorBundle",
     "license": "MIT",
     "authors": [
         {
@@ -51,10 +51,8 @@
     },
 
     "autoload": {
-        "psr-0": { "Fp\\JsFormValidatorBundle": "" }
+        "psr-4": { "Fp\\JsFormValidatorBundle\\": "" }
     },
-
-    "target-dir": "Fp/JsFormValidatorBundle",
 
     "extra": {
         "branch-alias": {
